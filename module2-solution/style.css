@@ -1,0 +1,102 @@
+body{
+		background-color: blue;
+	}
+*{
+	box-sizing: border-box;
+	padding: 0px;
+}
+@media (min-width: 992px){
+	#p1{
+		margin-left: 5%; 
+		width: 25%;
+		height: 25%;
+		background-color: white;
+	}
+	#p2{
+		margin-left: 5%;
+		width: 25%;
+		background-color: white;
+	}
+	#p3{
+		margin-left: 5%;
+		width: 25%;
+		background-color: white;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#p1{
+		margin-left: 5%; 
+		width: 40%;
+		background-color:  gray;
+	}
+	#p2{
+		margin-left: 5%; 
+		width: 40%;
+		background-color: gray
+	}
+	#p3{
+		margin-top: 5%;
+		margin-left: 5%; 
+		width: 84%;
+		background-color:  gray;
+	}
+}
+@media(max-width: 767px){
+	#p1{
+		margin-left: 5%; 
+		width: 80%;
+		background-color:  red;
+		clear: right;
+	}
+	#p2{
+		margin-left: 5%; 
+		width: 80%;
+		background-color:  red;
+	}
+	#p3{
+		margin-left: 5%; 
+		width: 80%;
+		background-color:  red;
+	}
+
+}
+div{
+	padding: 5px;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	margin: 5px;
+}
+p{
+	padding: 5px;
+}
+#title1{
+	margin: -5px;
+	background-color: orange;
+	width: 90px;
+	float: right;
+	clear: left;
+	text-align: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	}
+#title2{
+	margin: -5px;
+	background-color: yellow;
+	width: 90px;
+	float: right;
+	clear: left;
+	text-align: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	}
+#title3{
+	margin: -5px;
+	background-color: pink;
+	width: 90px;
+	float: right;
+	clear: left;
+	text-align: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	}
